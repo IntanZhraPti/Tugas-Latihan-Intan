@@ -1,0 +1,22 @@
+<!doctype html>
+<html><head><title>Plain Vanilla JavaScript</title><meta charset="UTF-8"></head>
+<body>
+<script>
+    // sebuah Array berisi daftar nama teman-teman
+    var temanTeman = ['Intan', 'Alma', 'Nabila', 'Ilham', 'Reyhan'];
+    // apakah "Budi" ada dalam daftar-daftar teman-teman kita?
+    const yangKitaCari = 'Alma'
+    if (temanTeman.includes(yangKitaCari)) {
+      // tampilkan ke console JavaScript
+      console.log(yangKitaCari+' ada dalam daftar!');
+      // tampilkan pada body dokumen HTML
+      document.writeln('<p>'+yangKitaCari+' ada dalam daftar!</p>')
+    } else {
+      // tampilkan ke console JavaScript
+      console.log(yangKitaCari+' TIDAK ADA dalam daftar!');
+      // tampilkan pada body dokumen HTML
+      document.writeln('<p>'+yangKitaCari+' TIDAK ADA dalam daftar!</p>')      
+    }
+</script>
+</body>
+</html>
